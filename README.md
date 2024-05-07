@@ -7,8 +7,9 @@ You can download this model here: [HuggingFace TheMistoAI](https://huggingface.c
 MistoLine: A Versatile and Robust SDXL-ControlNet Model for Adaptable Line Art Conditioning.  
 
 MistoLine is an SDXL-ControlNet model that can adapt to any type of line art input, demonstrating high accuracy and excellent stability. It can generate  high-quality images (with a short side greater than 1024px) based on user-provided line art of various types, including hand-drawn sketches, different  ControlNet line preprocessors, and model-generated outlines. MistoLine eliminates the need to select different ControlNet models for different line  preprocessors, as it exhibits strong generalization capabilities across diverse line art conditions.  
-We developed MistoLine by employing a novel line preprocessing algorithm (Anyline) and retraining the ControlNet model based on the Unet of stabilityai/  stable-diffusion-xl-base-1.0, along with innovations in large model training engineering. MistoLine showcases superior performance across different types of
-line art inputs, surpassing existing ControlNet models in terms of detail restoration, prompt alignment, and stability, particularly in more complex  scenarios.  
+
+We developed MistoLine by employing a novel line preprocessing algorithm (Anyline) and retraining the ControlNet model based on the Unet of stabilityai/  stable-diffusion-xl-base-1.0, along with innovations in large model training engineering. MistoLine showcases superior performance across
+different types of line art inputs, surpassing existing ControlNet models in terms of detail restoration, prompt alignment, and stability, particularly in more complex  scenarios.  
 
 MistoLine maintains consistency with the ControlNet architecture released by @lllyasviel, as illustrated in the following schematic diagram:  
 ![ControlNet architecture](assets/controlnet_1.png)  
@@ -31,9 +32,11 @@ We have open-sourced the corresponding model weight files for non-commercial use
 ## Application Examples
 
 ### Sketch Rendering
+*The following case only utilized MistoLine as the controlnet：*
 ![Sketch Rendering](assets/sketch_rendering.png)  
 
 ### Model Rendering
+*The following case only utilized Anyline as the preprocessor and MistoLine as the controlnet.*
 ![Model Rendering](assets/model_rendering.png)
 
 ## ComfyUI Recommended Parameters
