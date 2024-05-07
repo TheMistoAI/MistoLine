@@ -9,7 +9,7 @@ MistoLine is an SDXL-ControlNet model that can adapt to any type of line art inp
 We developed MistoLine by employing a novel line preprocessing algorithm (Anyline) and retraining the ControlNet model based on the Unet of stabilityai/  stable-diffusion-xl-base-1.0, along with innovations in large model training engineering. MistoLine showcases superior performance across different types of
 line art inputs, surpassing existing ControlNet models in terms of detail restoration, prompt alignment, and stability, particularly in more complex  scenarios.  
 
-MistoLine maintains consistency with the ControlNet architecture released by lllyasviel, as illustrated in the following schematic diagram:
+MistoLine maintains consistency with the ControlNet architecture released by lllyasviel, as illustrated in the following schematic diagram:  
 ![ControlNet architecture](assets/controlnet_1.png)  
 ![ControlNet architecture](assets/controlnet_2.png)  
 *reference：https://github.com/lllyasviel/ControlNet*  
