@@ -2,7 +2,7 @@
  
 ## Control Every Line!
 ![Intro Image](assets/intro.png)  
-You can download the model here: [HuggingFace Repo]([https://github.com/TheMistoAI/MistoLine](https://huggingface.co/TheMistoAI/MistoLine))  
+You can download the model here: [HuggingFace Repo](https://huggingface.co/TheMistoAI/MistoLine)  
 
 **MistoLine: A Versatile and Robust SDXL-ControlNet Model for Adaptable Line Art Conditioning.**  
 
