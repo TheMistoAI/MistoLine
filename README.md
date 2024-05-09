@@ -20,7 +20,7 @@ More information about ControlNet can be found in the following references:
 https://github.com/lllyasviel/ControlNet  
 https://huggingface.co/docs/diffusers/main/en/api/pipelines/controlnet_sdxl  
 
-The model is compatible with most SDXL models, except for PlaygroundV2.5 and CosXL. It can be used in conjunction with LCM and other ControlNet models.  
+The model is compatible with most SDXL models, except for PlaygroundV2.5, CosXL, and SDXL-Lightning(maybe). It can be used in conjunction with LCM and other ControlNet models.  
 
 The following usage of this model is not allowed:  
 * Violating laws and regulations
