@@ -39,7 +39,7 @@ The following usage of this model is not allowed:
 
 The model output is not censored and the authors do not endorse the opinions in the generated content. Use at your own risk.
 
-If you use or distribute this model for commercial purposes, you must comply with the following conditions:  
+## If you use or distribute this model for commercial purposes, you must comply with the following conditions:  
 1. Clearly acknowledge the contribution of TheMisto.ai to this model in the documentation, website, or other prominent and visible locations of your product.   
    Example: "This product uses the MistoLine-SDXL-ControlNet developed by TheMisto.ai."  
 2. If your product includes about screens, readme files, or other similar display areas, you must include the above attribution information in those areas.  
@@ -47,7 +47,7 @@ If you use or distribute this model for commercial purposes, you must comply wit
 4. You must not imply in any way that TheMisto.ai endorses or promotes your product. The use of the attribution information is solely to indicate the origin of this model.  
    If you have any questions about how to provide attribution in specific cases, please contact info@themisto.ai.  
 
-署名条款  
+## 署名条款
 如果您在商业用途中使用或分发本模型,您必须满足以下条件:  
 1. 在产品的文档,网站,或其他主要可见位置,明确提及 TheMisto.ai 对本软件的贡献。  
    示例: "本产品使用了 TheMisto.ai 开发的 MistoLine-SDXL-ControlNet。"  
