@@ -94,6 +94,9 @@ end_percent:0.9
 - mistoLine_rank256.safetensors : General usage version, for ComfyUI and AUTOMATIC1111-WebUI.
 - mistoLine_fp16.safetensors : FP16 weights, for ComfyUI and AUTOMATIC1111-WebUI.
 
+## !!!mistoLine_rank256.safetensors better than mistoLine_fp16.safetensors
+## !!!mistoLine_rank256.safetensors 表现更加出色！！
+
 ## ComfyUI Usage
 
 ![ComfyUI](assets/comfyui.png)
