@@ -9,7 +9,7 @@ You can download the model here: [HuggingFace Repo](https://huggingface.co/TheMi
 
 MistoLine is an SDXL-ControlNet model that can adapt to any type of line art input, demonstrating high accuracy and excellent stability. It can generate high-quality images (with a short side greater than 1024px) based on user-provided line art of various types, including hand-drawn sketches, different ControlNet line preprocessors, and model-generated outlines. MistoLine eliminates the need to select different ControlNet models for different line preprocessors, as it exhibits strong generalization capabilities across diverse line art conditions.
 
-We developed MistoLine by employing a novel line preprocessing algorithm (**Anyline**) (coming soon) and retraining the ControlNet model based on the Unet of stabilityai/ stable-diffusion-xl-base-1.0, along with innovations in large model training engineering. MistoLine showcases superior performance across
+We developed MistoLine by employing a novel line preprocessing algorithm **[Anyline](https://github.com/TheMistoAI/ComfyUI-Anyline)** and retraining the ControlNet model based on the Unet of stabilityai/ stable-diffusion-xl-base-1.0, along with innovations in large model training engineering. MistoLine showcases superior performance across
 different types of line art inputs, surpassing existing ControlNet models in terms of detail restoration, prompt alignment, and stability, particularly in more complex scenarios.
 
 MistoLine maintains consistency with the ControlNet architecture released by @lllyasviel, as illustrated in the following schematic diagram:  
