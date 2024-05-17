@@ -39,22 +39,25 @@ The following usage of this model is not allowed:
 
 The model output is not censored and the authors do not endorse the opinions in the generated content. Use at your own risk.
 
-## If you use or distribute this model for commercial purposes, you must comply with the following conditions:  
-1. Clearly acknowledge the contribution of TheMisto.ai to this model in the documentation, website, or other prominent and visible locations of your product.   
-   Example: "This product uses the MistoLine-SDXL-ControlNet developed by TheMisto.ai."  
-2. If your product includes about screens, readme files, or other similar display areas, you must include the above attribution information in those areas.  
-3. If your product does not have the aforementioned areas, you must include the attribution information in other reasonable locations within the product to ensure that end-users can notice it.  
+## If you use or distribute this model for commercial purposes, you must comply with the following conditions:
+
+1. Clearly acknowledge the contribution of TheMisto.ai to this model in the documentation, website, or other prominent and visible locations of your product.  
+   Example: "This product uses the MistoLine-SDXL-ControlNet developed by TheMisto.ai."
+2. If your product includes about screens, readme files, or other similar display areas, you must include the above attribution information in those areas.
+3. If your product does not have the aforementioned areas, you must include the attribution information in other reasonable locations within the product to ensure that end-users can notice it.
 4. You must not imply in any way that TheMisto.ai endorses or promotes your product. The use of the attribution information is solely to indicate the origin of this model.  
-   If you have any questions about how to provide attribution in specific cases, please contact info@themisto.ai.  
+   If you have any questions about how to provide attribution in specific cases, please contact info@themisto.ai.
 
 ## 署名条款
-如果您在商业用途中使用或分发本模型,您必须满足以下条件:  
+
+如果您在商业用途中使用或分发本模型,您必须满足以下条件:
+
 1. 在产品的文档,网站,或其他主要可见位置,明确提及 TheMisto.ai 对本软件的贡献。  
-   示例: "本产品使用了 TheMisto.ai 开发的 MistoLine-SDXL-ControlNet。"  
-2. 如果您的产品包含有关屏幕,说明文件,或其他类似的显示区域,您必须在这些区域中包含上述署名信息。  
-3. 如果您的产品没有上述区域,您必须在产品的其他合理位置包含署名信息,以确保最终用户能够注意到。  
+   示例: "本产品使用了 TheMisto.ai 开发的 MistoLine-SDXL-ControlNet。"
+2. 如果您的产品包含有关屏幕,说明文件,或其他类似的显示区域,您必须在这些区域中包含上述署名信息。
+3. 如果您的产品没有上述区域,您必须在产品的其他合理位置包含署名信息,以确保最终用户能够注意到。
 4. 您不得以任何方式暗示 TheMisto.ai 为您的产品背书或促销。署名信息的使用仅用于表明本模型的来源。  
-   如果您对如何在特定情况下提供署名有任何疑问,请联系info@themisto.ai。  
+   如果您对如何在特定情况下提供署名有任何疑问,请联系info@themisto.ai。
 
 ## Apply with Different Line Preprocessors
 
@@ -95,11 +98,15 @@ end_percent:0.9
 - mistoLine_fp16.safetensors : FP16 weights, for ComfyUI and AUTOMATIC1111-WebUI.
 
 ### !!!mistoLine_rank256.safetensors better than mistoLine_fp16.safetensors
+
 ### !!!mistoLine_rank256.safetensors 表现更加出色！！
 
 ## ComfyUI Usage
 
-![ComfyUI](assets/comfyui.png)
+The standard workflow using Anyline+Mistoline in SDXL is as follows  
+![Anyline+MistoLine](assets/Anyline%2BMistoLine_workflow.jpg)
+
+You can download this workflow JSON here: [ComfyUI Workflow](Anyline%2BMistoLine_ComfyUI_workflow.json)
 
 ## 中国（大陆地区）便捷下载地址：
 
