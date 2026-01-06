@@ -14,6 +14,16 @@ Warmly welcome everyone to try it out.
 ![Intro Image](assets/intro.png)  
 You can download the model here: [HuggingFace Repo](https://huggingface.co/TheMistoAI/MistoLine)
 
+We are thrilled to announce that MistoLine has officially surpassed 300,000 total downloads! 
+(Verified via official Hugging Face API)
+
+MistoLine also achieved #1 in the Text-to-Image Trending list and Top 4 Overall on Hugging Face! These milestones reflect the incredible support and adoption from the open-source AI community. Check out our trending highlights:
+
+<p align="center">
+  <img src="assets/highlight1.png" width="48%" />
+  <img src="assets/highlight2.png" width="48%" />
+</p>
+
 **MistoLine: A Versatile and Robust SDXL-ControlNet Model for Adaptable Line Art Conditioning.**
 
 MistoLine is an SDXL-ControlNet model that can adapt to any type of line art input, demonstrating high accuracy and excellent stability. It can generate high-quality images (with a short side greater than 1024px) based on user-provided line art of various types, including hand-drawn sketches, different ControlNet line preprocessors, and model-generated outlines. MistoLine eliminates the need to select different ControlNet models for different line preprocessors, as it exhibits strong generalization capabilities across diverse line art conditions.
