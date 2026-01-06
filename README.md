@@ -15,7 +15,7 @@ Warmly welcome everyone to try it out.
 You can download the model here: [HuggingFace Repo](https://huggingface.co/TheMistoAI/MistoLine)
 
 We are thrilled to announce that MistoLine has officially surpassed 300,000 total downloads! 
-(Verified via official Hugging Face API)
+(Verified via official [Hugging Face API](https://huggingface.co/api/models/TheMistoAI/MistoLine?expand[]=downloadsAllTime))
 
 MistoLine also achieved #1 in the Text-to-Image Trending list and Top 4 Overall on Hugging Face! These milestones reflect the incredible support and adoption from the open-source AI community. Check out our trending highlights:
 
